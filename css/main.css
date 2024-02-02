@@ -574,3 +574,54 @@ footer a:not(.nav-link) {
   font-size: 16px;
   font-weight: 400;
 }
+
+
+
+/* Service CSS */
+
+
+.single-feature {
+  padding: 60px 35px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  box-shadow: 0px 5px 25px rgba(218, 211, 211, 0.3);
+  text-align: center;
+  border-bottom: 5px solid #585978;
+  transition: all 0.3s ease-out 0s;
+}
+
+.single-feature:hover {
+  border-color: #f6e05e;
+  box-shadow: 0px 8px 25px rgba(246, 224, 94, 0.5)
+  ;
+}
+
+.single-feature .icon {
+  color: #f6e05e;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 20px;
+  position: relative;
+  width: 110px;
+  height: 100px;
+  z-index: 1;
+}
+
+.single-feature .icon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.single-feature .content h5 {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.work-box{
+  margin-left: 11rem;
+}
