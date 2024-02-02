@@ -330,6 +330,7 @@ footer a:not(.nav-link) {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
 .navbar-collapse {
     position: absolute;
     top: 100%;
@@ -342,6 +343,7 @@ footer a:not(.nav-link) {
   }
 }
 @media (max-width: 767px) {
+
   .navbar-collapse {
     position: absolute;
     top: 100%;
@@ -624,4 +626,17 @@ footer a:not(.nav-link) {
 
 .work-box{
   margin-left: 11rem;
+}
+ 
+
+@media (max-width: 767px) {
+  .work-box{
+    margin-left: 0rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .work-2{
+    margin-left: 11rem;
+  }
 }
