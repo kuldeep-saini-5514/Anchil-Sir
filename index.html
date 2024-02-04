@@ -896,7 +896,8 @@
               <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
                 <div class="bg-light my-2 p-3 pt-2">
                   <form
-                    action="https://formspree.io/your@email.com"
+                    action=" "
+                    name="contactform"
                     method="POST"
                   >
                     <div class="form-group my-2">
@@ -1100,5 +1101,17 @@
     <script src="./scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
     <script src="./scripts/aos.min.js?ver=1.2.0"></script>
     <script src="./scripts/main.js?ver=1.2.0"></script>
+    <script>
+			const scriptURL = 'https://script.google.com/macros/s/AKfycbzRYLKntaBckxdjRRmnjPbRJRorS4k8XR0JCqMtuByF6FvMafkh3ys8YWKj7cJyT2h8dA/exec'
+			const form = document.forms['contactform']
+		  
+			form.addEventListener('submit', e => {
+			  e.preventDefault()
+			  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+				.then(response => alert("Thank you! your form is submitted successfully." ))
+				.then(() => {  window.location.reload(); })
+				.catch(error => console.error('Error!', error.message))
+			})
+		  </script>
     </html>
   </body>
