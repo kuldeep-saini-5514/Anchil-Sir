@@ -659,7 +659,6 @@ progress {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   margin-top: calc(var(--bs-gutter-y) * -1);
   margin-right: calc(var(--bs-gutter-x) / -2);
@@ -2874,13 +2873,13 @@ fieldset:disabled .btn {
 .btn-primary:hover {
   color: #fff;
   background-color: #f7e576;
-  border-color: #f7e36e;
+  border-color: #2F80ED;
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #000;
   background-color: #f7e576;
-  border-color: #f7e36e;
+  border-color: #2F80ED;
   box-shadow: 0 0 0 0.25rem rgba(209, 190, 80, 0.5);
 }
 
@@ -2889,7 +2888,7 @@ fieldset:disabled .btn {
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
   background-color: #2F80ED;
-  border-color: #f7e36e;
+  border-color: #2F80ED;
 }
 
 .btn-check:checked + .btn-primary:focus,
@@ -7865,6 +7864,7 @@ fieldset:disabled .btn {
 
 .bg-light {
   background-color: #f4f6f8 !important;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .bg-dark {
