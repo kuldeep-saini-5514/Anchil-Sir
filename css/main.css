@@ -832,3 +832,7 @@ footer a:not(.nav-link) {
 .about-h3{
   font-size: 40px;
 }
+
+.term-contianer{
+  padding: 70px 70px;
+}
