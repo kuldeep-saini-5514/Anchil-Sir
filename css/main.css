@@ -836,3 +836,7 @@ footer a:not(.nav-link) {
 .term-contianer{
   padding: 70px 70px;
 }
+
+#header-nav{
+  height:6em;
+}
