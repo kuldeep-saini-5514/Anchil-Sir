@@ -175,7 +175,7 @@ img.avatar {
 
 /* Portolio Caption */
 #bp_container .bp-xc {
-  background: #F6E05E !important;
+  background: #2F80ED !important;
 }
 
 #bp_caption a {
@@ -392,8 +392,8 @@ footer a:not(.nav-link) {
 }
 
 .navbar-nav .nav-item a:hover, .navbar-nav .nav-item a.active {
-  color: #f6e05e;
-  border-color: #f6e05e;
+  color: #2F80ED;
+  border-color: #2F80ED;
 }
 
 .navbar-nav .nav-item:hover .sub-menu {
@@ -460,7 +460,7 @@ footer a:not(.nav-link) {
 
 .navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
   padding-left: 25px;
-  color: #f6e05e;
+  color: #2F80ED;
 }
 
 .navbar-nav .sub-nav-toggler {
@@ -520,7 +520,7 @@ footer a:not(.nav-link) {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background: #f6e05e;
+  background: #2F80ED;
   color: #ffffff;
   border: 1px solid transparent;
   position: relative;
@@ -559,8 +559,8 @@ footer a:not(.nav-link) {
 
 .button.border-button {
   background: transparent;
-  color: #f6e05e;
-  border-color: #f6e05e;
+  color: #2F80ED;
+  border-color: #2F80ED;
 }
 
 .button.border-button::before {
@@ -593,13 +593,13 @@ footer a:not(.nav-link) {
 }
 
 .single-feature:hover {
-  border-color: #f6e05e;
-  box-shadow: 0px 8px 25px rgba(246, 224, 94, 0.5)
+  border-color: #2F80ED;
+  box-shadow: 0px 8px 25px rgba(47, 128, 237, 0.5)
   ;
 }
 
 .single-feature .icon {
-  color: #f6e05e;
+  color: #2F80ED;
   font-size: 45px;
   display: flex;
   justify-content: center;
