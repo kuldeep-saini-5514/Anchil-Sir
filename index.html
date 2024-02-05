@@ -88,7 +88,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" id="nav-services" href="#services"
-                >Services</a
+                >Features</a
               >
             </li>
 
@@ -590,7 +590,7 @@
                       If you like to work with us then drop us a message using
                       the contact form.
                     </p>
-                    <p>Or get in touch using email, skype or contact number.</p>
+                    <p>Or get in touch using email, Whatsapp or contact number.</p>
                     <p>See you!</p>
                   </div>
                   <div class="mt-5 px-2">
@@ -906,6 +906,21 @@
           });
       }
     </script>
+
+<script>
+  document.body.addEventListener('click', function(e) {
+    if (e.target.id === 'nav-home') {
+      e.preventDefault();
+      window.scrollTo(0, 0);
+    } else if (e.target.id === 'nav-about') {
+      e.preventDefault();
+      const aboutSection = document.getElementById('about');
+      if (aboutSection) {
+        aboutSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  });
+</script>
 
     <script>
       const scriptURL =
