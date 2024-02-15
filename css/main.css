@@ -462,6 +462,7 @@ footer a:not(.nav-link) {
   z-index: 1;
   border: 1px solid transparent;
   border-radius: 30px;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -469,6 +470,7 @@ footer a:not(.nav-link) {
     display: inline-block;
     padding: 6px 20px;
     color: #323450;
+    font-weight: 700;
   }
 }
 
@@ -477,6 +479,7 @@ footer a:not(.nav-link) {
     display: inline-block;
     padding: 6px 20px;
     color: #323450;
+    font-weight: 700;
   }
 }
 
